@@ -1,0 +1,36 @@
+:root{
+    --primary: #111b54;
+    --ligth: #ffffff;
+    --grey: #efefef;
+}
+
+body{
+    background-image:url(../css/fondo2.jpg);
+    overflow: hidden;
+    font-family: 'muli',sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.bg-primary{ background-color: var(--primary) !important;}
+.bg.light{background-color: var(--ligth) !important;}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+.btn-search{
+    right: 5px;
+}
